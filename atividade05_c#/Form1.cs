@@ -13,6 +13,8 @@ namespace atividade05_c_
 {
     public partial class Form1 : Form
     {
+        private string _textContent = string.Empty;
+
         public Form1()
         {
             InitializeComponent();
@@ -24,7 +26,7 @@ namespace atividade05_c_
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            string texto = e.ToString();
+            _textContent = textBox1.Text;
         }
 
         private void salvarToolStripMenuItem_Click(object sender, EventArgs e)
