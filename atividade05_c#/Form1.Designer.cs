@@ -117,7 +117,6 @@
             this.escuroToolStripMenuItem.Name = "escuroToolStripMenuItem";
             this.escuroToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.escuroToolStripMenuItem.Text = "Escuro";
-            this.escuroToolStripMenuItem.Click += new System.EventHandler(this.escuroToolStripMenuItem_Click);
             // 
             // caroToolStripMenuItem
             // 
